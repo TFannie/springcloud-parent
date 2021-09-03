@@ -1,0 +1,10 @@
+server:
+  port: 8761
+#eureka服务注册中心的地址，暴漏服务地址
+spring:
+  application:
+    name: EUREKASERVER
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
