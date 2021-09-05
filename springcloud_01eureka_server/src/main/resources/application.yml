@@ -8,3 +8,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+#      关闭eureka client立即注册
+    fetch-registry: false
+#    让当前应用仅仅作为eureka服务注册中心
+    register-with-eureka: false
