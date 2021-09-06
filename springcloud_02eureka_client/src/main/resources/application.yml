@@ -1,6 +1,6 @@
 #指定端口号
 server:
-  port: 8989
+  port: 8999
 #指定服务名称
 spring:
   application:

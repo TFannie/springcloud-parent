@@ -3,7 +3,7 @@ server:
 #eureka服务注册中心的地址，暴漏服务地址
 spring:
   application:
-    name: EUREKASERVER
+    name: EUREKASERVER1
 eureka:
   client:
     service-url:
