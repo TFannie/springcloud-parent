@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: category
+        uri: lb://CATEGORY
+        predicates:
+          - Path=/category/**
+          - after=
+        filters:
+          -
